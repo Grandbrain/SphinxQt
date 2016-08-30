@@ -5,5 +5,6 @@
         <file>Resources/ru.qm</file>
         <file>Resources/norecord.ico</file>
         <file>Resources/record.ico</file>
+        <file>Resources/en.qm</file>
     </qresource>
 </RCC>
