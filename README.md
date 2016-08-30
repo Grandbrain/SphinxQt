@@ -24,7 +24,7 @@ There are several ways to contribute to SphinxQt project:
 
 ## Usage
 
-* Launch the application and select preferred microphone and sample rate from the list.
+* Select preferred microphone and sample rate from the list.
 * Specify the recognition models on disk.
-* Click the "Initialization" button to initialize recognition.
-* Click the "Begin recognition" button to begin recognition.
+* Click "Initialization" to initialize recognition.
+* Click "Begin recognition" to begin recognition.
