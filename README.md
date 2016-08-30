@@ -3,7 +3,7 @@
 
 # Welcome to SphinxQt project!
 
-[SphinxQt](https://github.com/Grandbrain/SphinxQt) is an application for speech recognition based on CMU. The program uses third-party recognition models that are available on CMU Sphinx website. The program is based on the Qt Framework and includes binary libraries CMU Sphinx for Windows.
+[SphinxQt](https://github.com/Grandbrain/SphinxQt) is an application for speech recognition based on CMU Sphinx. The program uses third-party recognition models that are available on CMU Sphinx website. The program is based on Qt Framework and includes the binaries of CMU Sphinx for Windows.
 
 
 ## Contribute
@@ -25,6 +25,6 @@ There are several ways to contribute to SphinxQt project:
 ## Usage
 
 * Select preferred microphone and sample rate from the list.
-* Specify the recognition models on disk.
+* Specify the recognition models.
 * Click "Initialization" to initialize recognition.
 * Click "Begin recognition" to begin recognition.
