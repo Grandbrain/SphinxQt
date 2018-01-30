@@ -1,5 +1,8 @@
-[![Release](https://img.shields.io/badge/Release-v1.0.0-brightgreen.svg)](https://github.com/Grandbrain/SphinxQt/releases)
-[![Licence](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Grandbrain/SphinxQt/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/Grandbrain/SphinxQt.svg)](https://github.com/Grandbrain/SphinxQt/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Grandbrain/SphinxQt.svg)](https://github.com/Grandbrain/SphinxQt/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Grandbrain/SphinxQt.svg)](https://github.com/Grandbrain/SphinxQt/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Grandbrain/SphinxQt.svg)](https://github.com/Grandbrain/SphinxQt/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Grandbrain/SphinxQt.svg)](https://github.com/Grandbrain/SphinxQt/blob/master/LICENSE)
 
 # Welcome to SphinxQt project!
 
