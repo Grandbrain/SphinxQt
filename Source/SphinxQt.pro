@@ -6,25 +6,25 @@ HEADERS     += window.h about.h recognition.h
 FORMS       += window.ui about.ui
 RESOURCES   += resources.qrc
 RC_FILE     = resources.rc
-INCLUDEPATH += $$PWD/resources/sphinx/include
-DEPENDPATH  += $$PWD/resources/sphinx/include
+INCLUDEPATH += $$PWD/../External/sphinx/include
+DEPENDPATH  += $$PWD/../External/sphinx/include
 
 win32 {
     CONFIG(debug, debug|release) {
         contains(QT_ARCH, i386) {
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/debug/32bit/ -lsphinxbase
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/debug/32bit/ -lpocketsphinx
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/32bit/debug/ -lsphinxbase
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/32bit/debug/ -lpocketsphinx
         } else {
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/debug/64bit/ -lsphinxbase
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/debug/64bit/ -lpocketsphinx
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/64bit/debug/ -lsphinxbase
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/64bit/debug/ -lpocketsphinx
         }
     } else {
         contains(QT_ARCH, i386) {
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/release/32bit/ -lsphinxbase
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/release/32bit/ -lpocketsphinx
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/32bit/release/ -lsphinxbase
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/32bit/release/ -lpocketsphinx
         } else {
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/release/64bit/ -lsphinxbase
-            LIBS += -L$$PWD/resources/sphinx/lib/windows/release/64bit/ -lpocketsphinx
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/64bit/release/ -lsphinxbase
+            LIBS += -L$$PWD/../External/sphinx/lib/windows/64bit/release/ -lpocketsphinx
         }
     }
 }
