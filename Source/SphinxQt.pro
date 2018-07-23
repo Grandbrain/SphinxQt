@@ -32,20 +32,24 @@ win32 {
 unix {
     CONFIG(debug, debug|release) {
         contains(QT_ARCH, i386) {
+            QMAKE_RPATHDIR += $$PWD/../External/sphinx/lib/linux/32bit/debug/
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/debug/ -lsphinxad
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/debug/ -lsphinxbase
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/debug/ -lpocketsphinx
         } else {
+            QMAKE_RPATHDIR += $$PWD/../External/sphinx/lib/linux/64bit/debug/
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/debug/ -lsphinxad
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/debug/ -lsphinxbase
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/debug/ -lpocketsphinx
         }
     } else {
         contains(QT_ARCH, i386) {
+            QMAKE_RPATHDIR += $$PWD/../External/sphinx/lib/linux/32bit/release/
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/release/ -lsphinxad
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/release/ -lsphinxbase
             LIBS += -L$$PWD/../External/sphinx/lib/linux/32bit/release/ -lpocketsphinx
         } else {
+            QMAKE_RPATHDIR += $$PWD/../External/sphinx/lib/linux/64bit/release/
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/release/ -lsphinxad
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/release/ -lsphinxbase
             LIBS += -L$$PWD/../External/sphinx/lib/linux/64bit/release/ -lpocketsphinx
